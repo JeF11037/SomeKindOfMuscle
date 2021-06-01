@@ -6,7 +6,7 @@ DROP DATABASE database_name
 ```
 ### Second request to return the largest value from given column.
 ```sql
-SELECT MAXIMUM(column_name) FROM table_name;
+SELECT MAX(column_name) FROM table_name;
 ```
 ### Third request to return column where column is equal to first value or to second value.
 ```sql

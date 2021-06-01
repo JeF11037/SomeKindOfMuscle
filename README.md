@@ -10,5 +10,5 @@ SELECT MAX(column_name) FROM table_name;
 ```
 ### Third request to return column where column is equal to first value or to second value.
 ```sql
-SELECT column_name FROM table_name WHERE column_name = value_1 ELSE column_name = value_2;
+SELECT column_name FROM table_name WHERE column_name = value_1 OR column_name = value_2;
 ```

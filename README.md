@@ -2,7 +2,7 @@
 This is repository for 01.06 teacher task. I have to write 3 SQL request and do some mistake in them.
 ### First request to delete a database.
 ```sql
-DELETE database_name
+DROP DATABASE database_name
 ```
 ### Second request to return the largest value from given column.
 ```sql
